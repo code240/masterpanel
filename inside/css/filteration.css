@@ -1,0 +1,26 @@
+:root {
+    --purple: #752bdf;
+    --imPure: #f2f3f9; 
+    --cute:#00c28e;
+    --PurityMixture:#eee;
+    --Pure:#fff;
+    --dark:#272c4a;
+    --darkPlus:#1b203d;
+}
+
+
+.no-filter-heading{
+    font-size: 1.1rem;
+    margin: 0 auto;
+    margin-top: 13rem;
+    color: #555;
+    text-align: center;
+}
+.btn-add-filter{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.card-icon{
+    margin-top: 0.85rem;
+}

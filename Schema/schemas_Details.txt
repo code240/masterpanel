@@ -1,0 +1,7 @@
+id
+fullname
+emailid
+phoneNumber
+password
+uniquie_id
+job_post

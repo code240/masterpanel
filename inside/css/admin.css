@@ -1,0 +1,95 @@
+:root {
+    --purple: #752bdf;
+    --imPure: #f2f3f9; 
+    --cute:#00c28e;
+    --PurityMixture:#eee;
+    --Pure:#fff;
+    --dark:#272c4a;
+    --darkPlus:#1b203d;
+}
+
+
+
+
+
+.main-for-admin{
+    width: 100%;
+    height: auto;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.admin-card{
+    width: 23%;
+    height: auto;
+    background-color: #fff;
+    margin-left: 0.5rem;
+    padding-top: 1px;
+    box-shadow: 1px 1px 3px rgb(192, 192, 192);
+    float: left;
+    margin-bottom: 2.5rem;
+}
+.admin-img{
+    height: 4.25rem;
+    width: 4.25rem;
+    border-radius: 4rem;
+    border: 1px solid rgb(223, 211, 246);
+    margin: 0 auto;
+    padding: 1px;
+    margin-top: -2rem;
+    background-color: rgb(229, 215, 255);
+}
+.user-icon{
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(68, 44, 116);
+}
+.content-inCard{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    /* border: 1px solid red; */
+}
+.line{
+    display: block;
+    text-align: center;
+
+}
+.admin-content-text{
+    font-size: 1rem;
+}
+.ques-text{
+    font-weight: 500;
+}
+.answ-text{
+    font-weight: 400;
+}   
+.auth-post{
+    color:#752bdf;
+}
+.for-card-btns{
+    display: block;
+    width: fit-content;
+    padding-top: 0.6rem;
+    float: right;
+}
+.heading-margin{
+    margin-top: 0rem;
+}
+.no-data-heading{
+    width: 70%;
+    /* text-align: center; */
+    margin: 0 auto;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+.no-sub-admin{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+

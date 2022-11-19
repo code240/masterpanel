@@ -1,0 +1,18 @@
+Admin:
+
+    1> All rights
+    2> Can Register SubAdmin
+    3> Can Register Manager
+
+Sub-Admin:
+
+    1> All rights but
+    2> Cannot Register Admin
+    3> Cannot Register Sub-Admin
+    
+
+Manager:
+
+    1> Can create filter But cannot delete it.
+    2> Can connect db but cannot disconnect it.
+    3> Cannot view subadmin except his parental sub-admin.

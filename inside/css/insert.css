@@ -1,0 +1,46 @@
+:root {
+    --purple: #752bdf;
+    --imPure: #f2f3f9; 
+    --cute:#00c28e;
+    --PurityMixture:#eee;
+    --Pure:#fff;
+    --dark:#272c4a;
+    --darkPlus:#1b203d;
+}
+.cb{
+    clear: both;
+}
+
+body{
+    background-color: #272c4a;
+    color: rgb(255, 255, 0);
+}
+.form-div{
+    color: #000;
+}
+.textarea:focus{
+    background-color: rgb(240, 255, 246);
+    outline: 3px solid rgba(26, 192, 207, 0.744);
+}
+
+.p-key{
+    color: rgb(248, 190, 0);
+    font-weight: 500;
+}
+.u-key{
+    color: rgb(109, 109, 123);
+    font-weight: 500;
+}
+.mini-area{
+    height: 3.5rem;
+    resize: none;
+    min-height: 3.5rem;
+}
+.normal-area{
+    height: 6rem;
+    resize: none;
+}
+.large-area{
+    min-height: 10rem;
+    height: 10rem;
+}

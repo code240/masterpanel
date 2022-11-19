@@ -1,0 +1,74 @@
+body{
+    background-color: #f8f8f8;
+}   
+.mainbody{
+    /* border: 1px solid rgb(159, 159, 159); */
+    box-shadow: 0px 0px 3px rgb(186, 186, 186);
+    width: 24rem;
+    height: auto;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+}
+h1{
+    background-color: #417690;
+    color: #fff;
+    font-size: 1.43rem;
+    padding: 1rem;
+    text-align: center;
+    font-family:sans-serif;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.form-label{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+
+}
+.collector{
+    font-size: 0.9rem;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #212121;
+    border: 1px solid #999;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.collector:focus{
+    outline: 0;
+    background-color: rgb(243, 255, 240);
+}
+.login-btn{
+    background-color: #417690;
+    color: #fff;
+    border: 1px solid #417690;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.login-btn:hover{
+    background-color: #325a6e;
+    border: 1px solid #325a6e;
+    color: #fff;
+}
+
+
+@media screen and (max-width:500px) {
+    .mainbody{
+        width: 90%;
+    }
+    h1{
+        margin-bottom: 1.4rem;
+    }
+}

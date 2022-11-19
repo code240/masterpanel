@@ -1,0 +1,131 @@
+:root {
+    --purple: #752bdf;
+    --imPure: #f2f3f9; 
+    --cute:#00c28e;
+    --PurityMixture:#eee;
+    --Pure:#fff;
+    --dark:#272c4a;
+    --darkPlus:#1b203d;
+}
+
+/* scrollbar design */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #d8d8d8;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#fff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--cute);
+  }
+  
+/* Body */
+
+
+
+
+
+body{
+    background-color:var(--darkPlus);
+    padding: 0;
+    padding-bottom: 1rem;
+    color: #fefefe;
+}
+.masterPanel-heading{
+    font-weight: 500;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    font-style: italic;
+}
+.form-div{
+    width: 35%;
+    height: 35rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.inner-form-div{
+    width: 100%;
+    height: 32rem;
+    overflow-y: auto;
+
+}
+.edit-data-heading{
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: #000;
+    text-align: center;
+}
+.label-form{
+    font-size: 1.1rem;
+    display: block;
+    font-weight: 500;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+.collector{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+    padding: 5px;
+    font-size: 1.05rem;
+}
+.collector::placeholder{
+    text-transform: capitalize;
+}
+.textarea::placeholder{
+    text-transform: capitalize;
+}
+.textarea{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+    padding: 5px;
+    height: 7rem;
+    min-height: 4rem;
+    font-size: 1.05rem;
+}
+.big-text{
+    height: 20rem;
+}
+.textarea:focus{
+    outline: 0;
+}
+.red-placeholder::placeholder{
+    color: red;
+}
+.red-placeholder{
+    color: red;
+}
+.btn-save{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}

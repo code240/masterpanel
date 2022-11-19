@@ -1,0 +1,36 @@
+.if-not-enable-div{
+    padding-top: 9rem;
+    padding-right: 7rem;
+}
+.enable-heading{
+    font-size: 1.3rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-enable{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.danger-text{
+    font-size: 1rem;
+    color: red;
+    display: block;
+    padding-top: 0.4rem;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.guide-btn{
+    color:blue;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.guide-btn:hover{
+    color: rgb(121, 121, 255);
+
+}

@@ -1,0 +1,448 @@
+:root {
+    --purple: #752bdf;
+    --imPure: #f2f3f9; 
+    --cute:#00c28e;
+    --PurityMixture:#eee;
+    --Pure:#fff;
+    --dark:#272c4a;
+    --darkPlus:#1b203d;
+}
+body{
+    background-color: var(--imPure);
+    padding-left: 20%;
+    padding-top: 4.5rem;
+    padding-bottom: 10rem;
+    
+}
+.cb{clear: both;}
+
+.btn-purple{
+    background-color: var(--purple);
+    color:var(--Pure);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-purple:focus{
+    background-color:var(--purple);
+    color: var(--Pure);
+    border: 1px solid var(--purple);
+}
+.btn-purple:hover{
+    background-color: #6023b7;
+    color: var(--Pure);
+    border: 1px solid var(--purple);
+}
+
+/* scrollbar design */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eacbff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--purple);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--cute);
+  }
+  
+/* Body */
+
+.header{
+    background:linear-gradient(90deg,#f9f9f9,#fff,#fff,#fff);
+    width: 100%;
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    padding-left: 20%;
+    left: 0;
+}
+
+.side{
+    background:linear-gradient(90deg,#fff,#fff,#fff,#fafafa);
+
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--Pure);
+    width: 20%;
+    z-index: 10;
+}
+.forBranding{
+    width: 100%;
+    height: 4.5rem;
+    background-color: #ffffff;
+}
+.setting-logo{
+    color: var(--cute);
+    color: #000;
+
+    padding-right: 0.4rem;
+}
+.branding{
+    color: black;
+    font-size: 2rem;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.8rem;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.P-letter{
+    color: var(--cute);
+    /* color: #000; */
+}
+.forButtons{
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 3rem;
+
+}
+.btn-add-db{
+    display: block;
+    width: 70%;
+    /* margin: 0 auto; */
+}
+.more-btns{
+    padding-top: 1.5rem;
+}
+.btn-sides{
+    display: block;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    color: #676767;
+    font-weight: 600;
+    text-decoration:none;
+    transition: 0.3s ease-in-out;
+}
+.btn-sides:hover{
+    color: var(--purple);
+}
+.btnFont{
+    padding-left: 1rem;
+}
+.active{
+    color: var(--purple);
+    border-right: 5px solid var(--purple);
+}
+.active span{
+    color: #000;
+    font-weight: 600;
+}
+.heading-type-1{
+    font-size: 1rem;
+    padding: 0.6rem;
+    color: #979797;
+    font-family: Arial;
+    font-weight: 500;
+}
+.ForConnectedDb{
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    /* border: 1px solid red; */
+}
+.db-card{
+    width: 22.8%;
+    background-color: var(--Pure);
+    height: 6rem;
+    padding:1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgb(192, 192, 192);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+
+}
+.card-icon{
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+    margin-top: 1rem;
+}
+.db-icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffd3d3;
+    float: left;
+    /* border: 1px solid #000; */
+}
+.db-content{
+    /* border: 1px solid #000; */
+    float: left;
+    height: 4rem;
+    width: 68%;
+    padding-left: 1rem;
+}
+.db-text-up{
+    display: block;
+    font-weight: 500;
+    font-size: 1.15rem;
+    padding-top: 0.2rem;
+    color: #000000;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.db-text-down{
+    display: block;
+    font-size: 1rem;
+    color:#a4a4a4;
+    font-weight: 500;
+    padding-top: 0.3rem;
+}
+.forTables{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 3px rgb(192, 192, 192);
+    
+}
+.heading-type-2{
+    font-size: 1rem;
+    padding: 0.6rem;
+    color: #4f4f4f;
+    font-family: Arial;
+    font-weight: 500;
+    padding-top: 1rem;
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+.forTableCards{
+    width: 100%;
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.table-card{
+    width: 22.8%;
+    background-color: var(--Pure);
+    height: 6rem;
+    padding:1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgb(192, 192, 192);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+.table-icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffd3d3;
+    float: left;
+    /* border: 1px solid #000; */
+}
+.table-content{
+    /* border: 1px solid #000; */
+    float: left;
+    height: 4rem;
+    width: 68%;
+    padding-left: 1rem;
+}
+.table-text-up{
+    display: block;
+    font-weight: 500;
+    font-size: 1.15rem;
+    padding-top: 0.2rem;
+    color: #000000;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table-text-down{
+    display: block;
+    font-size: 1rem;
+    color:#a4a4a4;
+    font-weight: 500;
+    padding-top: 0.3rem;
+}
+.notice-no-table{
+    display: block;
+    color: #999;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.errorno{
+    background-color: rgb(163, 45, 45);
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding:1.3rem;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+/* Fixed-part */
+.black-bg{
+    background-color: rgba(0, 0, 0, 0.606);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+.db-input-Div{
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+.add-db-heading{
+    background-color: #ffc107;
+    color: #000;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.main-input-div{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.left-input{
+    float: left;
+    width: 50%;
+}
+.right-input{
+    float: right;
+    width: 50%;
+}
+.form-label{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+
+}
+
+.collector{
+    font-size: 0.9rem;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #212121;
+    border: 1px solid #999;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.collector:focus{
+    outline: 0;
+    background-color: rgb(243, 255, 240);
+}
+.for-btns{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+.btn-connect{
+    margin-top: 1rem;
+}
+
+#db-connect{
+    display: none;
+}
+
+
+
+
+.loading-bgs{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 15rem;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.loadings{
+    margin: 0 auto;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 15px solid rgb(255, 0, 0);
+    border-bottom:15px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: bounce 0.7s infinite;
+}
+
+@keyframes bounce{
+    0%{ transform: rotate(18deg);    } 
+    5%{ transform: rotate(36deg);    } 
+    10%{ transform: rotate(54deg);   }
+    15%{ transform: rotate(72deg);   } 
+    20%{ transform: rotate(90deg);   }
+    25%{ transform: rotate(108deg);  } 
+    30%{ transform: rotate(126deg);  }
+    35%{ transform: rotate(144deg);  } 
+    40%{ transform: rotate(162deg);  }
+    45%{ transform: rotate(180deg);  } 
+    50%{ transform: rotate(198deg);  }
+    60%{ transform: rotate(216deg);  } 
+    65%{ transform: rotate(234deg);  }
+    70%{ transform: rotate(252deg);  } 
+    75%{ transform: rotate(270deg);  }
+    80%{ transform: rotate(288deg);  } 
+    85%{ transform: rotate(306deg);  }
+    90%{ transform: rotate(324deg);  } 
+    95%{ transform: rotate(342deg);  }
+    100%{transform: rotate(360deg);  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
